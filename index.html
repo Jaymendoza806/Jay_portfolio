@@ -1,0 +1,1020 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f8f7f3" />
+    <meta
+      name="description"
+      content="Jay Mendoza's IT portfolio featuring web development, projects, skills, and certificates."
+    />
+    <title>Jay Mendoza</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="floating-nav" aria-label="Main navigation">
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#certificates">Certificates</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-label="Switch theme"
+          title="Switch theme"
+        >
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section hero" id="home">
+        <div class="ink-art hero-art" aria-hidden="true">
+          <svg viewBox="0 0 1400 650" preserveAspectRatio="xMidYMid slice">
+            <g fill="currentColor" opacity=".12">
+              <path
+                d="M-40 480 80 380 180 425 310 315 435 415 570 340 710 430 830 300 950 400 1090 325 1210 390 1440 305V700H-40Z"
+              />
+              <path
+                d="M-30 535 110 450 250 490 370 420 520 495 660 410 800 475 950 400 1100 470 1270 400 1440 460V700H-30Z"
+              />
+            </g>
+            <g fill="none" stroke="currentColor" stroke-width="4" opacity=".22">
+              <path
+                d="M-30 485Q110 385 240 445T500 395T770 430T1030 375T1450 420"
+              />
+              <path
+                d="M-30 545Q140 450 290 500T570 465T850 490T1170 450T1450 490"
+              />
+            </g>
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-width="3"
+              stroke-linecap="round"
+              opacity=".7"
+            >
+              <path d="M1040 -20Q1020 55 1085 82T1200 65T1410 24" />
+              <path
+                d="M1080 35Q1130 5 1170 -30M1110 65Q1170 35 1210 0M1190 53Q1240 100 1315 105"
+              />
+              <path d="M1290 52Q1325 15 1370 -10" />
+            </g>
+            <g fill="#c92328">
+              <circle cx="1080" cy="22" r="5" />
+              <circle cx="1119" cy="18" r="4" />
+              <circle cx="1140" cy="55" r="5" />
+              <circle cx="1183" cy="9" r="5" />
+              <circle cx="1217" cy="60" r="4" />
+              <circle cx="1250" cy="83" r="5" />
+              <circle cx="1298" cy="22" r="4" />
+              <circle cx="1330" cy="45" r="5" />
+              <circle cx="1377" cy="33" r="4" />
+              <circle cx="1154" cy="93" r="4" />
+            </g>
+            <g fill="none" stroke="currentColor" stroke-width="2" opacity=".35">
+              <path d="M710 160q12 -12 24 0q12 -12 24 0" />
+              <path d="M780 130q10 -10 20 0q10 -10 20 0" />
+            </g>
+          </svg>
+        </div>
+
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow profession-line">
+              <span id="profession-text">IT STUDENT</span
+              ><span class="typing-cursor">|</span>
+            </p>
+            <p class="hero-intro">Hi, I'm</p>
+            <h1>
+              <span id="typed-name"></span><span class="name-cursor">|</span>
+            </h1>
+            <h2>Building ideas into <em>digital experiences.</em></h2>
+            <p class="hero-description">
+              I'm an IT student interested in web development, databases, and
+              software testing. I enjoy solving problems, exploring new
+              technologies, and learning through hands-on academic projects.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects"
+                >View Projects <i class="fa-solid fa-arrow-right"></i
+              ></a>
+              <a
+                class="button button-outline"
+                href="ATS%20friendly%20resume.docx"
+                download
+                >Download Resume <i class="fa-solid fa-download"></i
+              ></a>
+            </div>
+
+            <div class="hero-highlights">
+              <span><i class="fa-solid fa-code"></i> Web Development</span>
+              <span><i class="fa-solid fa-database"></i> Databases</span>
+              <span
+                ><i class="fa-solid fa-shield-halved"></i> System Testing</span
+              >
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-sun" aria-hidden="true"></div>
+            <div class="hero-mountains" aria-hidden="true">
+              <svg viewBox="0 0 620 350">
+                <path
+                  d="M0 260 90 210 155 235 245 145 305 220 400 115 465 195 545 130 620 180V350H0Z"
+                  fill="currentColor"
+                  opacity=".13"
+                />
+                <path
+                  d="M0 260 90 210 155 235 245 145 305 220 400 115 465 195 545 130 620 180"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  opacity=".4"
+                />
+                <path
+                  d="M35 290Q135 245 220 275T395 260T620 245"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  opacity=".3"
+                />
+                <path
+                  d="M230 170 245 145 265 171M380 140 400 115 426 152"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  opacity=".35"
+                />
+              </svg>
+            </div>
+
+            <div class="portrait-wrap">
+              <img
+                src="my pic.jpg"
+                alt="Portrait of Jay Mendoza"
+                class="profile-photo"
+              />
+              <span class="portrait-ring" aria-hidden="true"></span>
+            </div>
+
+            <div class="portrait-label">
+              <span class="portrait-seal">進</span>
+              <span>Keep moving forward</span>
+            </div>
+          </div>
+
+          <span class="hero-japanese" aria-hidden="true">前進</span>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">ABOUT</p>
+            <h2>Behind the <em>Screen</em></h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                I'm an Information Technology student at Northeastern College.
+                I'm interested in building useful web applications and
+                understanding how software works behind the scenes.
+              </p>
+              <p>
+                Through academic projects, I've gained experience checking
+                system functions, identifying errors, testing user access, and
+                verifying database records.
+              </p>
+              <a class="text-link" href="#skills"
+                >Explore My Skills <i class="fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+
+            <div class="about-points">
+              <article class="about-point">
+                <span class="icon-circle"
+                  ><i class="fa-solid fa-user-gear"></i
+                ></span>
+                <div>
+                  <h3>Who I Am</h3>
+                  <p>
+                    A dedicated IT student with an interest in technology and
+                    problem-solving.
+                  </p>
+                </div>
+              </article>
+              <article class="about-point">
+                <span class="icon-circle"
+                  ><i class="fa-solid fa-laptop-code"></i
+                ></span>
+                <div>
+                  <h3>What I Do</h3>
+                  <p>
+                    Build, test, and improve web applications and system
+                    functions through academic projects.
+                  </p>
+                </div>
+              </article>
+              <article class="about-point">
+                <span class="icon-circle"
+                  ><i class="fa-solid fa-compass"></i
+                ></span>
+                <div>
+                  <h3>My Goals</h3>
+                  <p>
+                    Continue developing my technical skills and create useful,
+                    reliable digital solutions.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">SKILLS</p>
+            <h2>My <em>Toolkit</em></h2>
+            <p class="subtitle">
+              Technologies and areas I have studied or practiced.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-item">
+              <i class="fa-brands fa-html5 html-icon"></i>
+              <h3>HTML</h3>
+              <p>Web structure</p>
+            </article>
+            <article class="skill-item">
+              <i class="fa-brands fa-css3-alt css-icon"></i>
+              <h3>CSS</h3>
+              <p>Layouts and styling</p>
+            </article>
+            <article class="skill-item">
+              <i class="fa-brands fa-js js-icon"></i>
+              <h3>JavaScript</h3>
+              <p>Interactivity</p>
+            </article>
+            <article class="skill-item">
+              <i class="fa-brands fa-php php-icon"></i>
+              <h3>PHP</h3>
+              <p>Server-side basics</p>
+            </article>
+            <article class="skill-item">
+              <i class="fa-solid fa-database mysql-icon"></i>
+              <h3>MySQL</h3>
+              <p>Database basics</p>
+            </article>
+            <article class="skill-item">
+              <span class="letter-icon">C#</span>
+              <h3>C++ / C#</h3>
+              <p>Programming</p>
+            </article>
+            <article class="skill-item">
+              <i class="fa-brands fa-bootstrap bootstrap-icon"></i>
+              <h3>Bootstrap</h3>
+              <p>Responsive UI</p>
+            </article>
+            <article class="skill-item">
+              <i class="fa-solid fa-shield-halved testing-icon"></i>
+              <h3>System Testing</h3>
+              <p>Functional checks</p>
+            </article>
+            <article class="skill-item">
+              <i class="fa-brands fa-git-alt git-icon"></i>
+              <h3>Git</h3>
+              <p>Version control basics</p>
+            </article>
+            <article class="skill-item">
+              <i class="fa-solid fa-screwdriver-wrench tools-icon"></i>
+              <h3>Troubleshooting</h3>
+              <p>Basic diagnostics</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">PROJECTS</p>
+            <h2>Selected <em>Work</em></h2>
+            <p class="subtitle">
+              Academic projects and practical learning experiences.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <span class="project-icon"
+                ><i class="fa-solid fa-mug-hot"></i
+              ></span>
+              <div>
+                <small>ACADEMIC PROJECT</small>
+                <h3>828 Cafe System</h3>
+                <p>
+                  An ongoing college project where I test login access, system
+                  functions, database records, orders, billing, and payments,
+                  then retest fixes.
+                </p>
+                <div class="tags">
+                  <span>System Testing</span><span>Database</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <span class="project-icon"
+                ><i class="fa-solid fa-list-check"></i
+              ></span>
+              <div>
+                <small>ACADEMIC PROJECT</small>
+                <h3>Task Manager</h3>
+                <p>
+                  A project focused on organizing tasks and exploring ways to
+                  make task management easier.
+                </p>
+                <div class="tags">
+                  <span>Academic Project</span><span>Programming</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <span class="project-icon"
+                ><i class="fa-solid fa-users"></i
+              ></span>
+              <div>
+                <small>ACADEMIC PROJECT</small>
+                <h3>Student Management System</h3>
+                <p>
+                  An academic project focused on managing student information
+                  and practicing database operations.
+                </p>
+                <div class="tags">
+                  <span>Database</span><span>Academic Project</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="certificates">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">CERTIFICATES</p>
+            <h2>Proof of <em>Learning</em></h2>
+            <p class="subtitle">
+              A collection of certificates from my learning journey.
+            </p>
+          </div>
+
+          <div class="filters" role="group" aria-label="Filter certificates">
+            <button class="active" data-filter="all" aria-pressed="true">
+              All
+            </button>
+            <button data-filter="cisco" aria-pressed="false">Cisco</button>
+            <button data-filter="microsoft" aria-pressed="false">
+              Microsoft
+            </button>
+            <button data-filter="tesda" aria-pressed="false">TESDA</button>
+            <button data-filter="web" aria-pressed="false">WEBMINAR</button>
+            <button data-filter="seminar" aria-pressed="false">Seminar</button>
+          </div>
+
+          <div class="certificate-grid">
+            <article class="certificate-card" data-category="cisco">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Getting Started with Cisco Packet Tracer"
+              >
+                <img
+                  src="My Certificates/Cisco cert/cisco 1.png"
+                  alt="Getting Started with Cisco Packet Tracer certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>CISCO</small>
+                <h3>Getting Started with Cisco Packet Tracer</h3>
+                <p>
+                  Introductory learning about Cisco Packet Tracer and network
+                  simulation.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="cisco">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Exploring Networking with Cisco Packet Tracer"
+              >
+                <img
+                  src="My Certificates/Cisco cert/cisco 2.png"
+                  alt="Exploring Networking with Cisco Packet Tracer certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>CISCO</small>
+                <h3>Exploring Networking with Cisco Packet Tracer</h3>
+                <p>
+                  Explored networking concepts through Packet Tracer activities
+                  and simulated network environments.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="cisco">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Networking Basics"
+              >
+                <img
+                  src="My Certificates/Cisco cert/cisco 3.png"
+                  alt="Networking Basics certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>CISCO</small>
+                <h3>Networking Basics</h3>
+                <p>
+                  Learned foundational networking concepts, devices,
+                  connectivity, and basic network communication.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="microsoft">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Explore AI for All"
+              >
+                <img
+                  src="My Certificates/Microsoft cert/microsoft 2.png"
+                  alt="Explore AI for All certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>MICROSOFT</small>
+                <h3>Explore AI for All</h3>
+                <p>
+                  Introductory learning about artificial intelligence and its
+                  applications.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="microsoft">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Explore Microsoft 365 security foundations"
+              >
+                <img
+                  src="My Certificates/Microsoft cert/microsoft 1.png"
+                  alt="Explore Microsoft 365 security foundations certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>MICROSOFT</small>
+                <h3>Explore Microsoft 365 security foundations</h3>
+                <p>
+                  A Microsoft learning achievement. Refer to the original
+                  certificate for its exact course title and details.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="microsoft">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Compose and send mail in new Outlook for Windows"
+              >
+                <img
+                  src="My Certificates/Microsoft cert/microsoft 3.png"
+                  alt="Compose and send mail in new Outlook for Windows certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>MICROSOFT</small>
+                <h3>Compose and send mail in new Outlook for Windows</h3>
+                <p>
+                  A Microsoft learning record. Check the original certificate
+                  for the exact course name.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="microsoft">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Flipped instruction with Record feature in PowerPoint"
+              >
+                <img
+                  src="My Certificates/Microsoft cert/microsoft 4.png"
+                  alt="Flipped instruction with Record feature in PowerPoint certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>MICROSOFT</small>
+                <h3>Flipped instruction with Record feature in PowerPoint</h3>
+                <p>
+                  An additional Microsoft learning milestone. The original
+                  certificate identifies the specific course title.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="microsoft">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Windows at work: Transforming finance teams with Windows 11 Pro"
+              >
+                <img
+                  src="My Certificates/Microsoft cert/microsoft 5.png"
+                  alt="Windows at work: Transforming finance teams with Windows 11 Pro certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>MICROSOFT</small>
+                <h3>
+                  Windows at work: Transforming finance teams with Windows 11
+                  Pro
+                </h3>
+                <p>
+                  A Microsoft-related learning achievement. Refer to the
+                  certificate image for the exact topic.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="microsoft">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview The value of genuine Windows"
+              >
+                <img
+                  src="My Certificates/Microsoft cert/microsoft 6.png"
+                  alt="The value of genuine Windows certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>MICROSOFT</small>
+                <h3>The value of genuine Windows</h3>
+                <p>
+                  An additional Microsoft learning record. See the original
+                  certificate for the specific course details.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="tesda">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Installing and Configuring Computer Systems"
+              >
+                <img
+                  src="My Certificates/Tesda cert/tesda 1.png"
+                  alt="Installing and Configuring Computer Systems certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>TESDA</small>
+                <h3>Installing and Configuring Computer Systems</h3>
+                <p>
+                  Completed training in installing and configuring computer
+                  systems.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="tesda">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Setting Up Computer Networks"
+              >
+                <img
+                  src="My Certificates/Tesda cert/tesda 2.png"
+                  alt="Setting Up Computer Networks certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>TESDA</small>
+                <h3>Setting Up Computer Networks</h3>
+                <p>
+                  Completed training focused on setting up computer networks.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="tesda">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Setting Up Computer Servers"
+              >
+                <img
+                  src="My Certificates/Tesda cert/tesda 3.png"
+                  alt="Setting Up Computer Servers certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>TESDA</small>
+                <h3>Setting Up Computer Servers</h3>
+                <p>
+                  Completed training focused on setting up computer servers.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="tesda">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Maintaining Computer Systems and Networks"
+              >
+                <img
+                  src="My Certificates/Tesda cert/tesda 4.png"
+                  alt="Maintaining Computer Systems and Networks certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>TESDA</small>
+                <h3>Maintaining Computer Systems and Networks</h3>
+                <p>
+                  An additional technical-vocational learning record. See the
+                  certificate for its exact title.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="web">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Can You Still Work Without AI?"
+              >
+                <img
+                  src="My Certificates/Web cert/web 1.png"
+                  alt="Can You Still Work Without AI? certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>WEBMINAR</small>
+                <h3>Can You Still Work Without AI?</h3>
+                <p>
+                  A web-related learning achievement. Check the certificate for
+                  its course title and skills covered.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="web">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Startup Business and Innovation"
+              >
+                <img
+                  src="My Certificates/Web cert/web 2.png"
+                  alt="Startup Business and Innovation certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>WEBMINAR</small>
+                <h3>Startup Business and Innovation</h3>
+                <p>
+                  Continued learning in web development. The certificate image
+                  identifies the specific topic.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="web">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview From Passion to Profession: Building Creative Careers through Digital Skills"
+              >
+                <img
+                  src="My Certificates/Web cert/web 3.png"
+                  alt="From Passion to Profession: Building Creative Careers through Digital Skills certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>WEBMINAR</small>
+                <h3>
+                  From Passion to Profession: Building Creative Careers through
+                  Digital Skills
+                </h3>
+                <p>
+                  A record of web-related study. Refer to the original image for
+                  the exact course title.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="web">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Cyber Tanaw: Emerging Cyber Threats and Technologies"
+              >
+                <img
+                  src="My Certificates/Web cert/web 4.png"
+                  alt="Cyber Tanaw: Emerging Cyber Threats and Technologies certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>WEBMINAR</small>
+                <h3>Cyber Tanaw: Emerging Cyber Threats and Technologies</h3>
+                <p>
+                  Another step in web learning. Check the certificate image for
+                  its subject and details.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="seminar">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Agentic AI"
+              >
+                <img
+                  src="My Certificates/Seminar cert/cert 1.png"
+                  alt="Agentic AI certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>SEMINAR</small>
+                <h3>Agentic AI</h3>
+                <p>
+                  Recognizes participation in a learning event. Check the
+                  certificate for the event name and organizer.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="seminar">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Programming Fundamentals"
+              >
+                <img
+                  src="My Certificates/Seminar cert/cert 2.png"
+                  alt="Programming Fundamentals certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>SEMINAR</small>
+                <h3>Programming Fundamentals</h3>
+                <p>
+                  Records participation in a seminar. Refer to the image for the
+                  official event details.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="seminar">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Video Editing Tips &amp; Tricks"
+              >
+                <img
+                  src="My Certificates/Seminar cert/cert3.png"
+                  alt="Video Editing Tips &amp; Tricks certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>SEMINAR</small>
+                <h3>Video Editing Tips &amp; Tricks</h3>
+                <p>
+                  A learning event record. The original certificate contains the
+                  topic and participation details.
+                </p>
+              </div>
+            </article>
+
+            <article class="certificate-card" data-category="seminar">
+              <button
+                class="certificate-preview"
+                type="button"
+                aria-label="Preview Integrating IoT in Capstone Project"
+              >
+                <img
+                  src="My Certificates/Seminar cert/cert 4.png"
+                  alt="Integrating IoT in Capstone Project certificate"
+                  loading="lazy"
+                /><span class="fallback">Certificate image unavailable</span>
+              </button>
+              <div class="certificate-info">
+                <small>SEMINAR</small>
+                <h3>Integrating IoT in Capstone Project</h3>
+                <p>
+                  Documents participation in another learning event. Check the
+                  image for the official event name.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">CONTACT</p>
+            <h2>Let's <em>Connect</em></h2>
+            <p class="subtitle">
+              Have a question or want to discuss a project? Send me a message.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <form class="contact-form" id="contact-form">
+              <div class="form-row">
+                <label
+                  ><span>Your name</span
+                  ><input
+                    type="text"
+                    name="name"
+                    placeholder="Your name"
+                    autocomplete="name"
+                    required
+                /></label>
+                <label
+                  ><span>Your email</span
+                  ><input
+                    type="email"
+                    name="email"
+                    placeholder="you@example.com"
+                    autocomplete="email"
+                    required
+                /></label>
+              </div>
+              <label
+                ><span>Message</span
+                ><textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Write your message..."
+                  required
+                ></textarea>
+              </label>
+              <button class="button button-primary submit-button" type="submit">
+                Send Message <i class="fa-solid fa-arrow-right"></i>
+              </button>
+              <p class="form-note">
+                This opens your default email app to send the message.
+              </p>
+            </form>
+
+            <aside class="contact-links">
+              <a href="mailto:jaymendoza806@gmail.com" class="contact-item"
+                ><span class="contact-icon"
+                  ><i class="fa-solid fa-envelope"></i></span
+                ><span
+                  ><strong>Email</strong
+                  ><small>jaymendoza806@gmail.com</small></span
+                ></a
+              >
+              <a
+                href="https://www.facebook.com/jy.mndza.09/"
+                class="contact-item"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span class="contact-icon"
+                  ><i class="fa-brands fa-facebook-f"></i></span
+                ><span
+                  ><strong>Facebook</strong
+                  ><small>Visit my profile</small></span
+                ></a
+              >
+              <a
+                href="https://github.com/Jaymendoza806"
+                class="contact-item"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span class="contact-icon"
+                  ><i class="fa-brands fa-github"></i></span
+                ><span
+                  ><strong>GitHub</strong
+                  ><small>github.com/Jaymendoza806</small></span
+                ></a
+              >
+              <a
+                href="ATS%20friendly%20resume.docx"
+                download
+                class="contact-item"
+                ><span class="contact-icon"
+                  ><i class="fa-solid fa-file-lines"></i></span
+                ><span
+                  ><strong>Resume</strong
+                  ><small>Download my resume</small></span
+                ></a
+              >
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Jay Mendoza. All rights reserved.</p>
+        <p class="footer-motto">
+          Keep learning <span>/</span> Keep building <span>/</span> Better
+          tomorrow
+        </p>
+        <a href="#home" class="back-to-top" aria-label="Back to top"
+          ><i class="fa-solid fa-arrow-up"></i
+        ></a>
+      </div>
+    </footer>
+
+    <div
+      class="image-modal"
+      id="image-modal"
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Certificate preview"
+    >
+      <button
+        class="modal-close"
+        id="modal-close"
+        aria-label="Close certificate preview"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <img id="modal-image" src="" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
